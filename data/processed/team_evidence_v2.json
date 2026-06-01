@@ -3855,24 +3855,24 @@
     "src_ip": "IP_003",
     "dst_ip": "",
     "risk_tags": [
+      "possible_prompt_injection",
       "secret_detected",
       "raw_text_suppressed",
-      "raw_path_suppressed",
-      "credential_request"
+      "raw_path_suppressed"
     ],
     "risk_score": 1.0,
     "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained credential-related terms. The event was tagged without exposing the original text.",
+    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/{long_text_segment}/reveal-secrets",
+      "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
       "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": false,
+      "has_instruction_like_words": true,
       "encoded_text_detected": false,
       "contains_secret_pattern": true,
       "text_length": 71,
@@ -3883,9 +3883,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "credential_request",
-      "contains_request_for_credentials": true,
-      "contains_instruction_to_model": false
+      "intent_category": "prompt_injection_like",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": true
     },
     "classifier_validation": {
       "is_valid": true,
@@ -4039,24 +4039,24 @@
     "src_ip": "IP_002",
     "dst_ip": "",
     "risk_tags": [
+      "possible_prompt_injection",
       "secret_detected",
       "raw_text_suppressed",
-      "raw_path_suppressed",
-      "credential_request"
+      "raw_path_suppressed"
     ],
     "risk_score": 1.0,
     "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained credential-related terms. The event was tagged without exposing the original text.",
+    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/{long_text_segment}/reveal-secrets",
+      "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
       "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": false,
+      "has_instruction_like_words": true,
       "encoded_text_detected": false,
       "contains_secret_pattern": true,
       "text_length": 71,
@@ -4067,9 +4067,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "credential_request",
-      "contains_request_for_credentials": true,
-      "contains_instruction_to_model": false
+      "intent_category": "prompt_injection_like",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": true
     },
     "classifier_validation": {
       "is_valid": true,
@@ -4221,24 +4221,24 @@
     "src_ip": "IP_004",
     "dst_ip": "",
     "risk_tags": [
+      "possible_prompt_injection",
       "secret_detected",
       "raw_text_suppressed",
-      "raw_path_suppressed",
-      "credential_request"
+      "raw_path_suppressed"
     ],
     "risk_score": 1.0,
     "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained credential-related terms. The event was tagged without exposing the original text.",
+    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/{long_text_segment}/reveal-secrets",
+      "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
       "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": false,
+      "has_instruction_like_words": true,
       "encoded_text_detected": false,
       "contains_secret_pattern": true,
       "text_length": 71,
@@ -4249,9 +4249,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "credential_request",
-      "contains_request_for_credentials": true,
-      "contains_instruction_to_model": false
+      "intent_category": "prompt_injection_like",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": true
     },
     "classifier_validation": {
       "is_valid": true,
@@ -4268,24 +4268,24 @@
     "src_ip": "IP_004",
     "dst_ip": "",
     "risk_tags": [
+      "possible_prompt_injection",
       "secret_detected",
       "raw_text_suppressed",
-      "raw_path_suppressed",
-      "credential_request"
+      "raw_path_suppressed"
     ],
     "risk_score": 1.0,
     "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained credential-related terms. The event was tagged without exposing the original text.",
+    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/{long_text_segment}/reveal-secrets",
+      "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
       "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": false,
+      "has_instruction_like_words": true,
       "encoded_text_detected": false,
       "contains_secret_pattern": true,
       "text_length": 71,
@@ -4296,9 +4296,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "credential_request",
-      "contains_request_for_credentials": true,
-      "contains_instruction_to_model": false
+      "intent_category": "prompt_injection_like",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": true
     },
     "classifier_validation": {
       "is_valid": true,

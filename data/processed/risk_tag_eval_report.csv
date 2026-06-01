@@ -9,6 +9,6 @@ MITRE Mapping Accuracy,1.0,Ratio of evidence records whose MITRE tactic hint is 
 Classifier Output Validity,1.0,Ratio of event-level classifier outputs passing schema validation
 brute_force_login Count,20.0,Number of events tagged by the cross-event brute force rule
 successful_after_failures Count,1.0,Number of successful login events after repeated failures
-possible_prompt_injection Count,2.0,Number of events tagged from instruction-like structured features
-credential_request Count,7.0,Number of events tagged from credential-related structured features
+possible_prompt_injection Count,6.0,Number of events tagged from instruction-like structured features
+credential_request Count,3.0,Number of events tagged from credential-related structured features
 secret_detected Count,4.0,Number of events tagged from secret-pattern structured features
