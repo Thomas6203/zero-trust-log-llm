@@ -1,0 +1,69 @@
+version: 2
+description: Week 15 risk tagging rules for Zero-Trust Log-to-LLM evidence generation.
+
+suspicious_command_keywords:
+  - powershell
+  - -enc
+  - encodedcommand
+  - invoke-expression
+  - downloadstring
+  - wmic process call create
+  - cmd.exe /c
+  - rundll32
+  - regsvr32
+  - mshta
+
+benign_command_examples:
+  - notepad.exe
+  - explorer.exe
+  - chrome.exe
+
+sensitive_file_keywords:
+  - .env
+  - id_rsa
+  - payroll
+  - customer_list
+  - credentials
+  - password
+  - secret
+  - private
+
+cross_event_rules:
+  brute_force_login:
+    group_by:
+      - user
+      - src_ip
+    event_type: login_failed
+    window_minutes: 30
+    min_failures: 5
+
+  successful_after_failures:
+    group_by:
+      - user
+      - src_ip
+    failure_event_type: login_failed
+    success_event_type: login_success
+    window_minutes: 30
+    min_previous_failures: 5
+
+feature_to_risk_tag:
+  has_instruction_like_words: possible_prompt_injection
+  has_credential_terms: credential_request
+  contains_secret_pattern: secret_detected
+  encoded_text_detected: encoded_payload
+  contains_url_and_has_urgent_words: phishing_like
+
+allowed_classifier_intent_categories:
+  - benign
+  - credential_request
+  - phishing_like
+  - prompt_injection_like
+  - malware_delivery
+  - unknown
+
+safe_summary_policy:
+  never_include_raw_log: true
+  never_include_raw_url_query_value: true
+  never_include_raw_command_line: true
+  never_include_raw_file_path: true
+  summarize_reason_for_risk_tag: true
