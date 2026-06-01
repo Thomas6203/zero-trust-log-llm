@@ -1,0 +1,14 @@
+metric,value,description
+Total Events,100.0,Number of evidence records generated from team_events_masked.csv
+Tag Coverage,1.0,Events with at least one risk tag divided by total events
+High Risk Count,33.0,Number of events with risk_score >= 0.7
+Suspicious Command Precision,1.0,Proxy check: suspicious_command events must match suspicious command keywords
+Sensitive File Precision,1.0,Proxy check: sensitive_file_access events must match sensitive file path keywords
+Evidence Completeness,1.0,Evidence records containing all required fields with valid basic types
+MITRE Mapping Accuracy,1.0,Ratio of evidence records whose MITRE tactic hint is in the approved allowlist
+Classifier Output Validity,1.0,Ratio of event-level classifier outputs passing schema validation
+brute_force_login Count,20.0,Number of events tagged by the cross-event brute force rule
+successful_after_failures Count,1.0,Number of successful login events after repeated failures
+possible_prompt_injection Count,2.0,Number of events tagged from instruction-like structured features
+credential_request Count,7.0,Number of events tagged from credential-related structured features
+secret_detected Count,4.0,Number of events tagged from secret-pattern structured features
