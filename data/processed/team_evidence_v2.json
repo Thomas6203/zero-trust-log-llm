@@ -5,7 +5,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -51,7 +51,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -97,7 +97,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -143,7 +143,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -189,7 +189,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -235,7 +235,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -281,7 +281,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -327,7 +327,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -373,7 +373,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -419,7 +419,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -465,7 +465,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -511,7 +511,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -557,7 +557,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -603,7 +603,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -649,7 +649,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -695,7 +695,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -741,7 +741,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -787,7 +787,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -833,7 +833,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -879,7 +879,7 @@
     "event_type": "login_failed",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_failed",
@@ -925,7 +925,7 @@
     "event_type": "login_success",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "",
     "risk_tags": [
       "login_success",
@@ -2499,8 +2499,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_001",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_003",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -2544,8 +2544,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_002",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_008",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -2589,8 +2589,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_001",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_003",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -2634,8 +2634,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_003",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_009",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -2679,8 +2679,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_002",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_008",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -2724,8 +2724,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_002",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_008",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -2769,8 +2769,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_002",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_008",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -2814,7 +2814,7 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "IP_004",
     "risk_tags": [
       "external_connection",
@@ -2859,7 +2859,7 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
+    "src_ip": "IP_005",
     "dst_ip": "IP_004",
     "risk_tags": [
       "external_connection",
@@ -2904,8 +2904,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_001",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_003",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -2949,8 +2949,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_002",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_008",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -2994,8 +2994,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_001",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_003",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -3039,8 +3039,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_003",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_009",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -3084,8 +3084,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_002",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_008",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -3129,8 +3129,8 @@
     "event_type": "network_connection",
     "host": "HOST_001",
     "user": "USER_001",
-    "src_ip": "IP_001",
-    "dst_ip": "IP_003",
+    "src_ip": "IP_005",
+    "dst_ip": "IP_009",
     "risk_tags": [
       "external_connection",
       "raw_text_suppressed"
@@ -3174,19 +3174,22 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_002",
+    "src_ip": "IP_007",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
+      "query_values_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.05,
+    "risk_score": 0.1,
     "mitre_tactic_hint": "Unknown",
     "safe_summary": "Event E071 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
-      "query_param_names": [],
+      "query_param_names": [
+        "q"
+      ],
       "query_values_forwarded": false,
       "url_path_template": "/search",
       "url_path_templated": false,
@@ -3195,7 +3198,7 @@
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 34,
+      "text_length": 49,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3219,19 +3222,22 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_003",
+    "src_ip": "IP_001",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
+      "query_values_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.05,
+    "risk_score": 0.1,
     "mitre_tactic_hint": "Unknown",
     "safe_summary": "Event E072 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
-      "query_param_names": [],
+      "query_param_names": [
+        "q"
+      ],
       "query_values_forwarded": false,
       "url_path_template": "/search",
       "url_path_templated": false,
@@ -3240,7 +3246,7 @@
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 34,
+      "text_length": 49,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3264,29 +3270,28 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
-      "credential_request",
       "raw_text_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.5,
-    "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained credential-related terms. The event was tagged without exposing the original text.",
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E073 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/login",
+      "url_path_template": "/{long_text_segment}",
       "url_path_templated": false,
       "has_urgent_words": false,
-      "has_credential_terms": true,
+      "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 33,
+      "text_length": 47,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3294,8 +3299,8 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "credential_request",
-      "contains_request_for_credentials": true,
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
       "contains_instruction_to_model": false
     },
     "classifier_validation": {
@@ -3310,19 +3315,22 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_003",
+    "src_ip": "IP_001",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
+      "query_values_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.05,
+    "risk_score": 0.1,
     "mitre_tactic_hint": "Unknown",
     "safe_summary": "Event E074 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
-      "query_param_names": [],
+      "query_param_names": [
+        "q"
+      ],
       "query_values_forwarded": false,
       "url_path_template": "/search",
       "url_path_templated": false,
@@ -3331,7 +3339,7 @@
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 34,
+      "text_length": 49,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3355,7 +3363,7 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_002",
+    "src_ip": "IP_007",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
@@ -3369,14 +3377,14 @@
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/api/v1/orders/{id}",
-      "url_path_templated": false,
+      "url_path_template": "/api/v1/orders/{numeric_segment}",
+      "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 46,
+      "text_length": 47,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3400,7 +3408,7 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_003",
+    "src_ip": "IP_001",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
@@ -3414,14 +3422,14 @@
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/api/v1/orders/{id}",
-      "url_path_templated": false,
+      "url_path_template": "/api/v1/orders/{numeric_segment}",
+      "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 46,
+      "text_length": 47,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3445,19 +3453,22 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_003",
+    "src_ip": "IP_001",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
+      "query_values_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.05,
+    "risk_score": 0.1,
     "mitre_tactic_hint": "Unknown",
     "safe_summary": "Event E077 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
-      "query_param_names": [],
+      "query_param_names": [
+        "q"
+      ],
       "query_values_forwarded": false,
       "url_path_template": "/search",
       "url_path_templated": false,
@@ -3466,7 +3477,7 @@
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 34,
+      "text_length": 49,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3490,29 +3501,28 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
-      "credential_request",
       "raw_text_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.5,
-    "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained credential-related terms. The event was tagged without exposing the original text.",
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E078 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/login",
+      "url_path_template": "/{long_text_segment}",
       "url_path_templated": false,
       "has_urgent_words": false,
-      "has_credential_terms": true,
+      "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 33,
+      "text_length": 47,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3520,8 +3530,8 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "credential_request",
-      "contains_request_for_credentials": true,
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
       "contains_instruction_to_model": false
     },
     "classifier_validation": {
@@ -3536,19 +3546,22 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
+      "query_values_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.05,
+    "risk_score": 0.1,
     "mitre_tactic_hint": "Unknown",
     "safe_summary": "Event E079 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
-      "query_param_names": [],
+      "query_param_names": [
+        "text"
+      ],
       "query_values_forwarded": false,
       "url_path_template": "/comment",
       "url_path_templated": false,
@@ -3557,7 +3570,7 @@
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 35,
+      "text_length": 53,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3581,19 +3594,22 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
+      "query_values_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.05,
+    "risk_score": 0.1,
     "mitre_tactic_hint": "Unknown",
     "safe_summary": "Event E080 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
-      "query_param_names": [],
+      "query_param_names": [
+        "q"
+      ],
       "query_values_forwarded": false,
       "url_path_template": "/search",
       "url_path_templated": false,
@@ -3602,7 +3618,7 @@
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 34,
+      "text_length": 49,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3626,19 +3642,22 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_002",
+    "src_ip": "IP_007",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
+      "query_values_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.05,
+    "risk_score": 0.1,
     "mitre_tactic_hint": "Unknown",
     "safe_summary": "Event E081 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
-      "query_param_names": [],
+      "query_param_names": [
+        "text"
+      ],
       "query_values_forwarded": false,
       "url_path_template": "/comment",
       "url_path_templated": false,
@@ -3647,7 +3666,7 @@
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 35,
+      "text_length": 53,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3671,19 +3690,22 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_002",
+    "src_ip": "IP_007",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
+      "query_values_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.05,
+    "risk_score": 0.1,
     "mitre_tactic_hint": "Unknown",
     "safe_summary": "Event E082 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
-      "query_param_names": [],
+      "query_param_names": [
+        "text"
+      ],
       "query_values_forwarded": false,
       "url_path_template": "/comment",
       "url_path_templated": false,
@@ -3692,7 +3714,7 @@
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 35,
+      "text_length": 53,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3716,19 +3738,22 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_003",
+    "src_ip": "IP_001",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
+      "query_values_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.05,
+    "risk_score": 0.1,
     "mitre_tactic_hint": "Unknown",
     "safe_summary": "Event E083 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
-      "query_param_names": [],
+      "query_param_names": [
+        "q"
+      ],
       "query_values_forwarded": false,
       "url_path_template": "/search",
       "url_path_templated": false,
@@ -3737,7 +3762,7 @@
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 34,
+      "text_length": 49,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3761,29 +3786,28 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
-      "credential_request",
       "raw_text_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.5,
-    "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained credential-related terms. The event was tagged without exposing the original text.",
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E084 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/login",
+      "url_path_template": "/{long_text_segment}",
       "url_path_templated": false,
       "has_urgent_words": false,
-      "has_credential_terms": true,
+      "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 33,
+      "text_length": 47,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3791,8 +3815,8 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "credential_request",
-      "contains_request_for_credentials": true,
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
       "contains_instruction_to_model": false
     },
     "classifier_validation": {
@@ -3807,7 +3831,7 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_003",
+    "src_ip": "IP_001",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
@@ -3821,14 +3845,14 @@
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/api/v1/orders/{id}",
-      "url_path_templated": false,
+      "url_path_template": "/api/v1/orders/{numeric_segment}",
+      "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 46,
+      "text_length": 47,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3852,30 +3876,28 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_003",
+    "src_ip": "IP_001",
     "dst_ip": "",
     "risk_tags": [
-      "possible_prompt_injection",
-      "secret_detected",
       "raw_text_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 1.0,
-    "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E086 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
       "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
-      "url_path_templated": true,
+      "url_path_templated": false,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": true,
+      "has_instruction_like_words": false,
       "encoded_text_detected": false,
-      "contains_secret_pattern": true,
-      "text_length": 71,
+      "contains_secret_pattern": false,
+      "text_length": 81,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3883,9 +3905,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "prompt_injection_like",
+      "intent_category": "benign",
       "contains_request_for_credentials": false,
-      "contains_instruction_to_model": true
+      "contains_instruction_to_model": false
     },
     "classifier_validation": {
       "is_valid": true,
@@ -3899,29 +3921,28 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
-      "possible_prompt_injection",
       "raw_text_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.55,
-    "mitre_tactic_hint": "Defense Evasion",
-    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E087 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
       "url_path_template": "/blog/{instruction_like_segment}",
-      "url_path_templated": true,
+      "url_path_templated": false,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": true,
+      "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 83,
+      "text_length": 59,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3929,9 +3950,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "prompt_injection_like",
+      "intent_category": "benign",
       "contains_request_for_credentials": false,
-      "contains_instruction_to_model": true
+      "contains_instruction_to_model": false
     },
     "classifier_validation": {
       "is_valid": true,
@@ -3945,29 +3966,28 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
-      "possible_prompt_injection",
       "raw_text_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 0.55,
-    "mitre_tactic_hint": "Defense Evasion",
-    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E088 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
       "url_path_template": "/blog/{instruction_like_segment}",
-      "url_path_templated": true,
+      "url_path_templated": false,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": true,
+      "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 83,
+      "text_length": 59,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -3975,9 +3995,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "prompt_injection_like",
+      "intent_category": "benign",
       "contains_request_for_credentials": false,
-      "contains_instruction_to_model": true
+      "contains_instruction_to_model": false
     },
     "classifier_validation": {
       "is_valid": true,
@@ -3991,7 +4011,7 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
@@ -4005,14 +4025,14 @@
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/api/v1/products/{id}",
-      "url_path_templated": false,
+      "url_path_template": "/api/v1/products/{numeric_segment}",
+      "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 48,
+      "text_length": 49,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -4036,30 +4056,28 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_002",
+    "src_ip": "IP_007",
     "dst_ip": "",
     "risk_tags": [
-      "possible_prompt_injection",
-      "secret_detected",
       "raw_text_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 1.0,
-    "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E090 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
       "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
-      "url_path_templated": true,
+      "url_path_templated": false,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": true,
+      "has_instruction_like_words": false,
       "encoded_text_detected": false,
-      "contains_secret_pattern": true,
-      "text_length": 71,
+      "contains_secret_pattern": false,
+      "text_length": 81,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -4067,9 +4085,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "prompt_injection_like",
+      "intent_category": "benign",
       "contains_request_for_credentials": false,
-      "contains_instruction_to_model": true
+      "contains_instruction_to_model": false
     },
     "classifier_validation": {
       "is_valid": true,
@@ -4083,7 +4101,7 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
@@ -4097,14 +4115,14 @@
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/api/v1/products/{id}",
-      "url_path_templated": false,
+      "url_path_template": "/api/v1/products/{numeric_segment}",
+      "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 48,
+      "text_length": 49,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -4128,7 +4146,7 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
@@ -4142,14 +4160,14 @@
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/api/v1/products/{id}",
-      "url_path_templated": false,
+      "url_path_template": "/api/v1/products/{numeric_segment}",
+      "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 48,
+      "text_length": 49,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -4173,7 +4191,7 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed",
@@ -4187,14 +4205,14 @@
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
-      "url_path_template": "/user/{id}/profile",
-      "url_path_templated": false,
+      "url_path_template": "/user/{numeric_segment}/profile",
+      "url_path_templated": true,
       "has_urgent_words": false,
       "has_credential_terms": false,
       "has_instruction_like_words": false,
       "encoded_text_detected": false,
       "contains_secret_pattern": false,
-      "text_length": 45,
+      "text_length": 44,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -4218,30 +4236,28 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
-      "possible_prompt_injection",
-      "secret_detected",
       "raw_text_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 1.0,
-    "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E094 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
       "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
-      "url_path_templated": true,
+      "url_path_templated": false,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": true,
+      "has_instruction_like_words": false,
       "encoded_text_detected": false,
-      "contains_secret_pattern": true,
-      "text_length": 71,
+      "contains_secret_pattern": false,
+      "text_length": 81,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -4249,9 +4265,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "prompt_injection_like",
+      "intent_category": "benign",
       "contains_request_for_credentials": false,
-      "contains_instruction_to_model": true
+      "contains_instruction_to_model": false
     },
     "classifier_validation": {
       "is_valid": true,
@@ -4265,30 +4281,28 @@
     "event_type": "web_request",
     "host": "HOST_002",
     "user": "USER_002",
-    "src_ip": "IP_004",
+    "src_ip": "IP_006",
     "dst_ip": "",
     "risk_tags": [
-      "possible_prompt_injection",
-      "secret_detected",
       "raw_text_suppressed",
       "raw_path_suppressed"
     ],
-    "risk_score": 1.0,
-    "mitre_tactic_hint": "Credential Access",
-    "safe_summary": "An untrusted text field contained instruction-like wording. Only structured features and a templated path summary were forwarded.",
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E095 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
     "text_features": {
       "contains_url": true,
       "url_count": 0,
       "query_param_names": [],
       "query_values_forwarded": false,
       "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
-      "url_path_templated": true,
+      "url_path_templated": false,
       "has_urgent_words": false,
       "has_credential_terms": false,
-      "has_instruction_like_words": true,
+      "has_instruction_like_words": false,
       "encoded_text_detected": false,
-      "contains_secret_pattern": true,
-      "text_length": 71,
+      "contains_secret_pattern": false,
+      "text_length": 81,
       "language_hint": "en",
       "raw_text_forwarded": false,
       "raw_text_suppressed": true,
@@ -4296,9 +4310,9 @@
       "raw_path_suppressed": true
     },
     "classifier_output": {
-      "intent_category": "prompt_injection_like",
+      "intent_category": "benign",
       "contains_request_for_credentials": false,
-      "contains_instruction_to_model": true
+      "contains_instruction_to_model": false
     },
     "classifier_validation": {
       "is_valid": true,
@@ -4312,7 +4326,7 @@
     "event_type": "app_error",
     "host": "HOST_003",
     "user": "USER_003",
-    "src_ip": "IP_005",
+    "src_ip": "IP_002",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed"
@@ -4356,7 +4370,7 @@
     "event_type": "app_error",
     "host": "HOST_003",
     "user": "USER_003",
-    "src_ip": "IP_005",
+    "src_ip": "IP_002",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed"
@@ -4400,7 +4414,7 @@
     "event_type": "app_error",
     "host": "HOST_003",
     "user": "USER_003",
-    "src_ip": "IP_005",
+    "src_ip": "IP_002",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed"
@@ -4444,7 +4458,7 @@
     "event_type": "app_error",
     "host": "HOST_003",
     "user": "USER_003",
-    "src_ip": "IP_005",
+    "src_ip": "IP_002",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed"
@@ -4488,7 +4502,7 @@
     "event_type": "app_error",
     "host": "HOST_003",
     "user": "USER_003",
-    "src_ip": "IP_005",
+    "src_ip": "IP_002",
     "dst_ip": "",
     "risk_tags": [
       "raw_text_suppressed"
