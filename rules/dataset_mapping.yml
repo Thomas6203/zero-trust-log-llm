@@ -1,0 +1,94 @@
+standard_schema:
+  event_id:
+    candidates:
+    - event_id
+    - EventID
+    - EventRecordID
+    - id
+  timestamp:
+    candidates:
+    - timestamp
+    - '@timestamp'
+    - TimeCreated
+    - UtcTime
+    - EventTime
+  source:
+    candidates:
+    - source
+    - SourceName
+    - Channel
+    - LogName
+    - ProviderName
+  host:
+    candidates:
+    - host
+    - Computer
+    - ComputerName
+    - Hostname
+    - DeviceName
+  user:
+    candidates:
+    - user
+    - User
+    - SubjectUserName
+    - TargetUserName
+    - AccountName
+  src_ip:
+    candidates:
+    - src_ip
+    - SourceIp
+    - SourceIP
+    - IpAddress
+    - ClientIP
+  dst_ip:
+    candidates:
+    - dst_ip
+    - DestinationIp
+    - DestinationIP
+    - RemoteIP
+    - DestinationAddress
+  event_type:
+    candidates:
+    - event_type
+    - EventType
+    - Category
+    - Action
+    - Activity
+  url:
+    candidates:
+    - url
+    - Url
+    - RequestUrl
+    - RequestURI
+    - cs_uri_stem
+  command_line:
+    candidates:
+    - command_line
+    - CommandLine
+    - ProcessCommandLine
+    - cmdline
+  file_path:
+    candidates:
+    - file_path
+    - TargetFilename
+    - FileName
+    - ObjectName
+    - Path
+  raw_message:
+    candidates:
+    - raw_message
+    - Message
+    - _raw
+    - RawEvent
+    - EventData
+  ground_truth_stage:
+    candidates:
+    - ground_truth_stage
+    - mitre_tactic
+    - attack_stage
+    - label
+notes:
+  purpose: Map real-world OTRF / Mordor fields into the prototype team_events_raw.csv
+    schema.
+  week15_role: Member A defines dataset compatibility to reduce downstream changes
+    for sanitizer, risk tagger, and LLM reasoner.
