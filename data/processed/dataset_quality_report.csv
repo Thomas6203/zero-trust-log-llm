@@ -1,0 +1,34 @@
+﻿metric,value,note
+Total Rows,100.0,Expected 100 rows for Week 15 prototype dataset.
+Total Columns,13.0,Expected 13 standard columns.
+Missing Required Columns,0.0,No missing required columns.
+Duplicate Event ID Count,0.0,Expected 0 duplicate event_id.
+Timestamp Parse Rate,1.0,Ratio of timestamps that can be parsed successfully.
+Field Completeness - event_id,1.0,Non-empty value ratio.
+Field Completeness - timestamp,1.0,Non-empty value ratio.
+Field Completeness - source,1.0,Non-empty value ratio.
+Field Completeness - host,1.0,Non-empty value ratio.
+Field Completeness - user,1.0,Non-empty value ratio.
+Field Completeness - src_ip,0.66,Non-empty value ratio.
+Field Completeness - dst_ip,0.15,Non-empty value ratio.
+Field Completeness - event_type,1.0,Non-empty value ratio.
+Field Completeness - url,0.25,Non-empty value ratio.
+Field Completeness - command_line,0.24,Non-empty value ratio.
+Field Completeness - file_path,0.15,Non-empty value ratio.
+Field Completeness - raw_message,1.0,Non-empty value ratio.
+Field Completeness - ground_truth_stage,1.0,Non-empty value ratio.
+Event Type Distribution - web_request,25.0,Number of events by event_type.
+Event Type Distribution - login_failed,20.0,Number of events by event_type.
+Event Type Distribution - network_connection,18.0,Number of events by event_type.
+Event Type Distribution - file_access,16.0,Number of events by event_type.
+Event Type Distribution - process_execution,15.0,Number of events by event_type.
+Event Type Distribution - app_error,5.0,Number of events by event_type.
+Event Type Distribution - login_success,1.0,Number of events by event_type.
+Ground Truth Stage Distribution - Prompt Injection Test,25.0,Number of events by ground_truth_stage.
+Ground Truth Stage Distribution - Credential Access,20.0,Number of events by ground_truth_stage.
+Ground Truth Stage Distribution - Command and Control,15.0,Number of events by ground_truth_stage.
+Ground Truth Stage Distribution - Benign,14.0,Number of events by ground_truth_stage.
+Ground Truth Stage Distribution - Collection,10.0,Number of events by ground_truth_stage.
+Ground Truth Stage Distribution - Execution,10.0,Number of events by ground_truth_stage.
+Ground Truth Stage Distribution - Secret Leakage Test,5.0,Number of events by ground_truth_stage.
+Ground Truth Stage Distribution - Initial Access,1.0,Number of events by ground_truth_stage.

@@ -1,0 +1,14 @@
+﻿field_name,risk_level,feature_extraction_needed,possible_features,reason
+event_id,low,no,none,Used as evidence identifier and does not contain sensitive raw text.
+timestamp,low,no,none,Needed for timeline ordering and can be directly used.
+source,low,no,none,Indicates log source and is useful for evidence context.
+host,medium,yes,"host_alias, host_type_hint","Hostnames may reveal internal assets, so aliasing is needed."
+user,medium,yes,"user_alias, user_activity_count",Usernames may contain personal or organizational information.
+src_ip,medium,yes,"src_ip_alias, is_private_ip, repeated_source_count",IP addresses can reveal internal network structure and should be aliased.
+dst_ip,medium,yes,"dst_ip_alias, is_external_ip, destination_frequency",Destination IPs may indicate external C2 or exfiltration destinations.
+event_type,low,no,none,Event type is structured and safe for downstream risk tagging.
+url,high,yes,"contains_url, query_param_names, query_values_forwarded, has_instruction_like_words, url_path_template",URL query and path may contain prompt injection or attacker-controlled text.
+command_line,high,yes,"encoded_text_detected, suspicious_binary, command_length, contains_download_command","Command lines may contain encoded payloads, malware execution patterns, or secrets."
+file_path,medium,yes,"file_extension, sensitive_keyword_detected, path_depth","File paths may reveal sensitive files such as .env, id_rsa, payroll, or credentials."
+raw_message,high,yes,"text_length, contains_secret_pattern, has_instruction_like_words, has_credential_terms, language_hint","Raw messages may contain prompt injection, secrets, passwords, or user-controlled text."
+ground_truth_stage,low,no,none,"Used for evaluation and report organization, not a high-risk raw text field."
