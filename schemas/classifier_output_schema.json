@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "intent_category",
+    "contains_request_for_credentials",
+    "contains_instruction_to_model"
+  ],
+  "properties": {
+    "intent_category": {
+      "type": "string",
+      "enum": [
+        "benign",
+        "credential_request",
+        "phishing_like",
+        "prompt_injection_like",
+        "malware_delivery",
+        "unknown"
+      ]
+    },
+    "contains_request_for_credentials": {
+      "type": "boolean"
+    },
+    "contains_instruction_to_model": {
+      "type": "boolean"
+    }
+  }
+}
