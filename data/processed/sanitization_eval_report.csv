@@ -1,0 +1,13 @@
+case_id,source,description,raw_text_forwarded,query_values_forwarded,raw_path_forwarded,raw_text_suppressed,raw_path_suppressed,passed,failed_checks
+SAN001,raw_message,English prompt injection in raw message,False,False,False,True,False,True,
+SAN002,raw_message,Chinese prompt injection in raw message,False,False,False,True,False,True,
+SAN003,url,Prompt injection in URL query value,False,False,False,True,True,True,
+SAN004,url,Instruction-like URL path,False,False,False,True,True,True,
+SAN005,raw_message,API key style secret in raw text,False,False,False,True,False,True,
+SAN006,raw_message,Password-like secret in raw text,False,False,False,True,False,True,
+SAN007,url,Credential term and query value in URL,False,False,False,True,True,True,
+SAN008,command_line,Encoded PowerShell command,False,False,False,True,False,True,
+SAN009,raw_message,Urgent credential request text,False,False,False,True,False,True,
+SAN010,url,Numeric URL path should be templated,False,False,False,True,True,True,
+SAN011,url,Order id path should be templated,False,False,False,True,True,True,
+SAN012,raw_message,Benign Chinese raw message should still not be forwarded,False,False,False,True,False,True,

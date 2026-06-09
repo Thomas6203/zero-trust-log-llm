@@ -1,0 +1,24 @@
+Return JSON only.
+
+Do not include Markdown fences, explanation, comments, headings, or prose outside JSON.
+
+The response must be a JSON object with exactly one top-level key:
+{
+  "timeline": [
+    {
+      "step": 1,
+      "time_range": "string",
+      "stage": "string",
+      "summary": "string",
+      "evidence_ids": ["E001"],
+      "confidence": 0.0,
+      "recommended_action": "string"
+    }
+  ]
+}
+
+Validation rules:
+- step must be an integer.
+- evidence_ids must be an array of strings.
+- confidence must be a number from 0 to 1.
+- Do not include raw logs, secrets, tokens, passwords, cookies, API keys, raw IPs, or raw usernames.

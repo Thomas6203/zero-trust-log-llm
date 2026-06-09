@@ -1,0 +1,3 @@
+run_name,output_file,status,json_valid,validator_valid,timeline_steps,used_evidence_count,unique_used_evidence_count,reasons
+baseline_v2,data\processed\baseline_llm_output_v2.json,not_run_missing_output_file,,,,,,"Run the corresponding prompt and save its raw JSON output to this file, then rerun scripts/run_v2_reports.py."
+zero_trust_v2,data\processed\zero_trust_llm_output_v2.json,not_run_missing_output_file,,,,,,"Run the corresponding prompt and save its raw JSON output to this file, then rerun scripts/run_v2_reports.py."

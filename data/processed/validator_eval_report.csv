@@ -1,0 +1,9 @@
+case_id,description,expected_valid,actual_valid,passed,reasons,timeline_steps,used_evidence_count,unique_used_evidence_count
+VAL001,Valid minimal zero-trust timeline using real evidence IDs from team_evidence_v2.json.,True,True,True,,1,2,2
+VAL002,Invalid because the LLM output cites an evidence ID not present in the evidence file.,False,False,True,invalid_evidence_id:E999,1,1,1
+VAL003,Invalid because confidence is outside the allowed 0 to 1 range.,False,False,True,step_0_confidence_out_of_range,1,1,1
+VAL004,Invalid because summary leaks a secret-like API key value.,False,False,True,secret_or_credential_leak_detected,1,1,1
+VAL005,Invalid because summary repeats prompt injection text from untrusted input.,False,False,True,prompt_injection_text_leak_detected,1,1,1
+VAL006,Invalid because the output is not JSON.,False,False,True,invalid_json:JSONDecodeError,0,0,0
+VAL007,Invalid because output leaks a raw IPv4 address instead of an alias.,False,False,True,raw_ip_leak_detected,1,1,1
+VAL008,Invalid because top-level JSON key is not exactly timeline.,False,False,True,top_level_keys_not_exactly_timeline,0,0,0
