@@ -1,0 +1,166 @@
+version: 2
+project: Zero-Trust Log-to-LLM Threat Timeline Reconstruction
+purpose: >
+  Define which fields may be forwarded to the main LLM, which fields must be
+  suppressed, and which fields should only be converted into deterministic
+  features before evidence construction.
+
+defaults:
+  main_llm_forward: false
+  raw_text_forward: false
+  query_values_forward: false
+  raw_path_forward: false
+  secret_forward: false
+
+safe_alias_patterns:
+  host: '^HOST_[0-9]{3}$'
+  user: '^USER_[0-9]{3}$'
+  ip: '^IP_[0-9]{3}$'
+
+fields:
+  event_id:
+    risk_level: low
+    main_llm_forward: true
+    transform: keep
+    reason: Required for evidence traceability.
+  timestamp:
+    risk_level: low
+    main_llm_forward: true
+    transform: keep
+    reason: Required for timeline ordering.
+  source:
+    risk_level: low
+    main_llm_forward: true
+    transform: keep
+    reason: Log source is useful context and normally not sensitive after dataset curation.
+  event_type:
+    risk_level: low
+    main_llm_forward: true
+    transform: keep
+    reason: Required for incident-stage reconstruction.
+  host:
+    risk_level: medium
+    main_llm_forward: false
+    transform: alias_to_host_alias
+    llm_field: host_alias
+    reason: Raw hostnames can reveal internal assets.
+  host_alias:
+    risk_level: low
+    main_llm_forward: true
+    transform: keep
+    reason: Alias is safe for timeline correlation.
+  user:
+    risk_level: high
+    main_llm_forward: false
+    transform: alias_to_user_alias
+    llm_field: user_alias
+    reason: Raw usernames may contain personal or organizational identifiers.
+  user_alias:
+    risk_level: low
+    main_llm_forward: true
+    transform: keep
+    reason: Alias is safe for correlation.
+  src_ip:
+    risk_level: high
+    main_llm_forward: false
+    transform: alias_to_src_ip_alias
+    llm_field: src_ip_alias
+    reason: Raw IP addresses can expose internal network details.
+  src_ip_alias:
+    risk_level: low
+    main_llm_forward: true
+    transform: keep
+    reason: Alias is safe for correlation.
+  dst_ip:
+    risk_level: high
+    main_llm_forward: false
+    transform: alias_to_dst_ip_alias
+    llm_field: dst_ip_alias
+    reason: Raw destination IPs can expose infrastructure or external targets.
+  dst_ip_alias:
+    risk_level: low
+    main_llm_forward: true
+    transform: keep
+    reason: Alias is safe for correlation.
+  url:
+    risk_level: high
+    main_llm_forward: false
+    transform: extract_url_features_only
+    features:
+      - contains_url
+      - url_count
+      - url_path_template
+      - query_param_names
+      - query_values_forwarded
+      - raw_path_suppressed
+    reason: URL path/query may contain user-controlled prompt injection or secrets.
+  command_line:
+    risk_level: high
+    main_llm_forward: false
+    transform: extract_command_features_only
+    features:
+      - suspicious_command
+      - suspicious_powershell
+      - encoded_text_detected
+      - contains_secret_pattern
+    reason: Command line can include payloads, credentials, or attacker-controlled strings.
+  file_path:
+    risk_level: medium
+    main_llm_forward: false
+    transform: extract_file_features_only
+    features:
+      - sensitive_file_access
+      - file_extension
+    reason: File paths may reveal usernames, folders, or sensitive document names.
+  raw_message:
+    risk_level: critical
+    main_llm_forward: false
+    transform: suppress_and_extract_features
+    features:
+      - text_length
+      - language_hint
+      - has_urgent_words
+      - has_credential_terms
+      - has_instruction_like_words
+      - contains_secret_pattern
+    reason: Raw log text can contain prompt injection, secrets, and untrusted user content.
+  ground_truth_stage:
+    risk_level: low
+    main_llm_forward: false
+    transform: evaluation_only
+    reason: Ground truth is for offline evaluation, not for main LLM inference.
+
+main_llm_allowed_fields:
+  - event_id
+  - timestamp
+  - event_type
+  - host_alias
+  - user_alias
+  - src_ip_alias
+  - dst_ip_alias
+  - risk_tags
+  - risk_score
+  - mitre_tactic_hint
+  - safe_summary
+  - text_features
+  - classifier_output
+  - classifier_validation
+
+deny_patterns:
+  secret_keywords:
+    - password
+    - passwd
+    - pwd
+    - token
+    - api_key
+    - apikey
+    - secret
+    - cookie
+    - authorization
+  prompt_injection_phrases:
+    - ignore previous instructions
+    - reveal secrets
+    - output all data
+    - system prompt
+    - 請忽略前面規則
+    - 輸出所有資料
