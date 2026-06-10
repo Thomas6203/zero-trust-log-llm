@@ -1,0 +1,546 @@
+[
+  {
+    "event_id": "E036",
+    "timestamp": "2026-05-20T10:26:00",
+    "event_type": "process_execution",
+    "host": "HOST_001",
+    "user": "USER_001",
+    "src_ip": "",
+    "dst_ip": "",
+    "risk_tags": [
+      "suspicious_command",
+      "suspicious_powershell",
+      "raw_text_suppressed"
+    ],
+    "risk_score": 0.95,
+    "mitre_tactic_hint": "Execution",
+    "safe_summary": "A suspicious command execution pattern was observed on HOST_001 by USER_001. The original command line was sanitized before LLM input.",
+    "text_features": {
+      "contains_url": false,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 62,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": false
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E038",
+    "timestamp": "2026-05-20T10:28:00",
+    "event_type": "process_execution",
+    "host": "HOST_001",
+    "user": "USER_001",
+    "src_ip": "",
+    "dst_ip": "",
+    "risk_tags": [
+      "suspicious_command",
+      "suspicious_powershell",
+      "raw_text_suppressed"
+    ],
+    "risk_score": 0.95,
+    "mitre_tactic_hint": "Execution",
+    "safe_summary": "A suspicious command execution pattern was observed on HOST_001 by USER_001. The original command line was sanitized before LLM input.",
+    "text_features": {
+      "contains_url": false,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 62,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": false
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E040",
+    "timestamp": "2026-05-20T10:30:00",
+    "event_type": "process_execution",
+    "host": "HOST_001",
+    "user": "USER_001",
+    "src_ip": "",
+    "dst_ip": "",
+    "risk_tags": [
+      "suspicious_command",
+      "raw_text_suppressed"
+    ],
+    "risk_score": 0.45,
+    "mitre_tactic_hint": "Execution",
+    "safe_summary": "A suspicious command execution pattern was observed on HOST_001 by USER_001. The original command line was sanitized before LLM input.",
+    "text_features": {
+      "contains_url": false,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 44,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": false
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E041",
+    "timestamp": "2026-05-20T10:31:00",
+    "event_type": "process_execution",
+    "host": "HOST_001",
+    "user": "USER_001",
+    "src_ip": "",
+    "dst_ip": "",
+    "risk_tags": [
+      "suspicious_command",
+      "raw_text_suppressed"
+    ],
+    "risk_score": 0.45,
+    "mitre_tactic_hint": "Execution",
+    "safe_summary": "A suspicious command execution pattern was observed on HOST_001 by USER_001. The original command line was sanitized before LLM input.",
+    "text_features": {
+      "contains_url": false,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 44,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": false
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E042",
+    "timestamp": "2026-05-20T10:32:00",
+    "event_type": "process_execution",
+    "host": "HOST_001",
+    "user": "USER_001",
+    "src_ip": "",
+    "dst_ip": "",
+    "risk_tags": [
+      "suspicious_command",
+      "suspicious_powershell",
+      "raw_text_suppressed"
+    ],
+    "risk_score": 0.95,
+    "mitre_tactic_hint": "Execution",
+    "safe_summary": "A suspicious command execution pattern was observed on HOST_001 by USER_001. The original command line was sanitized before LLM input.",
+    "text_features": {
+      "contains_url": false,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 70,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": false
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E045",
+    "timestamp": "2026-05-20T10:35:00",
+    "event_type": "process_execution",
+    "host": "HOST_001",
+    "user": "USER_001",
+    "src_ip": "",
+    "dst_ip": "",
+    "risk_tags": [
+      "suspicious_command",
+      "suspicious_powershell",
+      "raw_text_suppressed"
+    ],
+    "risk_score": 0.95,
+    "mitre_tactic_hint": "Execution",
+    "safe_summary": "A suspicious command execution pattern was observed on HOST_001 by USER_001. The original command line was sanitized before LLM input.",
+    "text_features": {
+      "contains_url": false,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 70,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": false
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E086",
+    "timestamp": "2026-05-20T12:36:00",
+    "event_type": "web_request",
+    "host": "HOST_002",
+    "user": "USER_002",
+    "src_ip": "IP_001",
+    "dst_ip": "",
+    "risk_tags": [
+      "raw_text_suppressed",
+      "raw_path_suppressed"
+    ],
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E086 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
+    "text_features": {
+      "contains_url": true,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 81,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": true
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E087",
+    "timestamp": "2026-05-20T12:37:00",
+    "event_type": "web_request",
+    "host": "HOST_002",
+    "user": "USER_002",
+    "src_ip": "IP_006",
+    "dst_ip": "",
+    "risk_tags": [
+      "raw_text_suppressed",
+      "raw_path_suppressed"
+    ],
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E087 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
+    "text_features": {
+      "contains_url": true,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "/blog/{instruction_like_segment}",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 59,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": true
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E088",
+    "timestamp": "2026-05-20T12:38:00",
+    "event_type": "web_request",
+    "host": "HOST_002",
+    "user": "USER_002",
+    "src_ip": "IP_006",
+    "dst_ip": "",
+    "risk_tags": [
+      "raw_text_suppressed",
+      "raw_path_suppressed"
+    ],
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E088 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
+    "text_features": {
+      "contains_url": true,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "/blog/{instruction_like_segment}",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 59,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": true
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E090",
+    "timestamp": "2026-05-20T12:40:00",
+    "event_type": "web_request",
+    "host": "HOST_002",
+    "user": "USER_002",
+    "src_ip": "IP_007",
+    "dst_ip": "",
+    "risk_tags": [
+      "raw_text_suppressed",
+      "raw_path_suppressed"
+    ],
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E090 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
+    "text_features": {
+      "contains_url": true,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 81,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": true
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E094",
+    "timestamp": "2026-05-20T12:44:00",
+    "event_type": "web_request",
+    "host": "HOST_002",
+    "user": "USER_002",
+    "src_ip": "IP_006",
+    "dst_ip": "",
+    "risk_tags": [
+      "raw_text_suppressed",
+      "raw_path_suppressed"
+    ],
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E094 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
+    "text_features": {
+      "contains_url": true,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 81,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": true
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  },
+  {
+    "event_id": "E095",
+    "timestamp": "2026-05-20T12:45:00",
+    "event_type": "web_request",
+    "host": "HOST_002",
+    "user": "USER_002",
+    "src_ip": "IP_006",
+    "dst_ip": "",
+    "risk_tags": [
+      "raw_text_suppressed",
+      "raw_path_suppressed"
+    ],
+    "risk_score": 0.05,
+    "mitre_tactic_hint": "Unknown",
+    "safe_summary": "Event E095 is a web_request event involving USER_002 on HOST_002. Risk tags were assigned from deterministic features. MITRE tactic hint: Unknown.",
+    "text_features": {
+      "contains_url": true,
+      "url_count": 0,
+      "query_param_names": [],
+      "query_values_forwarded": false,
+      "url_path_template": "/{instruction_like_segment}/{instruction_like_segment}",
+      "url_path_templated": false,
+      "has_urgent_words": false,
+      "has_credential_terms": false,
+      "has_instruction_like_words": false,
+      "encoded_text_detected": false,
+      "contains_secret_pattern": false,
+      "text_length": 81,
+      "language_hint": "en",
+      "raw_text_forwarded": false,
+      "raw_text_suppressed": true,
+      "raw_path_forwarded": false,
+      "raw_path_suppressed": true
+    },
+    "classifier_output": {
+      "intent_category": "benign",
+      "contains_request_for_credentials": false,
+      "contains_instruction_to_model": false
+    },
+    "classifier_validation": {
+      "is_valid": true,
+      "reasons": [],
+      "action": "accept"
+    }
+  }
+]

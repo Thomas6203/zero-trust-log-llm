@@ -8,6 +8,7 @@ attack-test cases from validator_attack_tests.json.
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import re
 from pathlib import Path
@@ -33,7 +34,12 @@ RAW_USER_HOST_HINT = re.compile(r"\b(?:DESKTOP|WIN|LAPTOP|SERVER)-[A-Za-z0-9_-]+
 
 
 def load_evidence_ids(path: Path) -> set[str]:
-    data = json.loads(path.read_text(encoding="utf-8"))
+    """Load valid event IDs from the sanitized evidence JSON.
+
+    Use utf-8-sig so files saved by Excel/Windows tools with a UTF-8 BOM
+    can still be parsed correctly.
+    """
+    data = json.loads(path.read_text(encoding="utf-8-sig"))
     return {str(item.get("event_id")) for item in data if item.get("event_id")}
 
 
@@ -129,7 +135,7 @@ def validate_timeline_output(output: Any, valid_evidence_ids: set[str]) -> Dict[
 
 def run_attack_tests(test_path: Path, evidence_path: Path, output_csv: Path) -> None:
     valid_ids = load_evidence_ids(evidence_path)
-    tests = json.loads(test_path.read_text(encoding="utf-8"))
+    tests = json.loads(test_path.read_text(encoding="utf-8-sig"))
     rows: List[Dict[str, Any]] = []
     for case in tests:
         result = validate_timeline_output(case.get("llm_output_text"), valid_ids)
@@ -146,11 +152,38 @@ def run_attack_tests(test_path: Path, evidence_path: Path, output_csv: Path) -> 
             "unique_used_evidence_count": result.get("unique_used_evidence_count", 0),
         })
     output_csv.parent.mkdir(parents=True, exist_ok=True)
-    import csv
-    with output_csv.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=list(rows[0].keys()))
+    with output_csv.open("w", newline="", encoding="utf-8-sig") as f:
+        fieldnames = list(rows[0].keys()) if rows else [
+            "case_id",
+            "description",
+            "expected_valid",
+            "actual_valid",
+            "passed",
+            "reasons",
+            "timeline_steps",
+            "used_evidence_count",
+            "unique_used_evidence_count",
+        ]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
         writer.writerows(rows)
+
+
+def write_single_output_report(output_json: Path, result: Dict[str, Any], output_csv: Path) -> None:
+    """Write validation result for one LLM output to llm_eval_report.csv."""
+    output_csv.parent.mkdir(parents=True, exist_ok=True)
+    row = {
+        "output_json": str(output_json),
+        "is_valid": result.get("is_valid", False),
+        "reasons": ";".join(result.get("reasons", [])),
+        "timeline_steps": result.get("timeline_steps", 0),
+        "used_evidence_count": result.get("used_evidence_count", 0),
+        "unique_used_evidence_count": result.get("unique_used_evidence_count", 0),
+    }
+    with output_csv.open("w", newline="", encoding="utf-8-sig") as f:
+        writer = csv.DictWriter(f, fieldnames=list(row.keys()))
+        writer.writeheader()
+        writer.writerow(row)
 
 
 def main() -> None:
@@ -158,7 +191,7 @@ def main() -> None:
     parser.add_argument("--evidence", type=Path, required=True)
     parser.add_argument("--output-json", type=Path, help="Validate one LLM output JSON/text file")
     parser.add_argument("--attack-tests", type=Path, help="Run validator attack tests JSON")
-    parser.add_argument("--report", type=Path, default=Path("data/processed/validator_eval_report.csv"))
+    parser.add_argument("--report", type=Path, default=Path("report/llm_eval_report.csv"))
     args = parser.parse_args()
 
     if args.attack_tests:
@@ -166,8 +199,11 @@ def main() -> None:
         print(f"wrote {args.report}")
     elif args.output_json:
         valid_ids = load_evidence_ids(args.evidence)
-        text = args.output_json.read_text(encoding="utf-8")
-        print(json.dumps(validate_timeline_output(text, valid_ids), indent=2, ensure_ascii=False))
+        text = args.output_json.read_text(encoding="utf-8-sig")
+        result = validate_timeline_output(text, valid_ids)
+        write_single_output_report(args.output_json, result, args.report)
+        print(json.dumps(result, indent=2, ensure_ascii=False))
+        print(f"wrote {args.report}")
     else:
         parser.error("Provide either --output-json or --attack-tests")
 

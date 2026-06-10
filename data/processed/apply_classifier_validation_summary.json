@@ -1,0 +1,15 @@
+{
+  "evidence_count": 100,
+  "validation_report_count": 105,
+  "updated_count": 100,
+  "missing_in_report_count": 0,
+  "extra_report_ids_count": 5,
+  "missing_in_report": [],
+  "extra_report_ids": [
+    "CLS001",
+    "CLS002",
+    "CLS003",
+    "CLS004",
+    "CLS005"
+  ]
+}

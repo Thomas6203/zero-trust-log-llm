@@ -1,0 +1,15 @@
+{
+  "evidence_count": 100,
+  "accepted_for_main_llm_count": 88,
+  "rejected_or_blocked_count": 12,
+  "missing_from_classifier_report_count": 0,
+  "extra_report_ids_count": 5,
+  "missing_from_classifier_report": [],
+  "extra_report_ids": [
+    "CLS001",
+    "CLS002",
+    "CLS003",
+    "CLS004",
+    "CLS005"
+  ]
+}

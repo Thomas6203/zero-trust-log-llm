@@ -1,0 +1,172 @@
+{
+"timeline": [
+{
+"step": 1,
+"time_range": "2026-05-20T09:01:00 to 2026-05-20T09:20:00",
+"stage": "Credential Access",
+"summary": "A repeated failed-login pattern was observed against the same account context from the same source alias. The evidence consistently labels these events as brute-force login activity, while raw authentication text was suppressed.",
+"evidence_ids": [
+"E001",
+"E002",
+"E003",
+"E004",
+"E005",
+"E006",
+"E007",
+"E008",
+"E009",
+"E010",
+"E011",
+"E012",
+"E013",
+"E014",
+"E015",
+"E016",
+"E017",
+"E018",
+"E019",
+"E020"
+],
+"confidence": 0.92,
+"recommended_action": "Review authentication controls, enforce step-up verification for the affected account context, and confirm whether the repeated failures were expected or malicious."
+},
+{
+"step": 2,
+"time_range": "2026-05-20T09:25:00",
+"stage": "Initial Access",
+"summary": "A successful login occurred after the repeated failed-login sequence. The evidence marks this as successful-after-failures and indicates a possible account compromise sequence.",
+"evidence_ids": [
+"E021"
+],
+"confidence": 0.9,
+"recommended_action": "Treat the account context as potentially compromised, revoke active sessions, rotate credentials through approved procedures, and inspect subsequent activity from the same session or account context."
+},
+{
+"step": 3,
+"time_range": "2026-05-20T09:47:00 to 2026-05-20T10:00:00",
+"stage": "Post-login Activity",
+"summary": "Network connection, process execution, and file access activity followed the suspicious successful login. These events have low or zero risk scores and unknown tactic hints, so they provide context but do not independently confirm malicious activity.",
+"evidence_ids": [
+"E022",
+"E023",
+"E024",
+"E025",
+"E026",
+"E027",
+"E028",
+"E029",
+"E030",
+"E031",
+"E032",
+"E033",
+"E034",
+"E035"
+],
+"confidence": 0.45,
+"recommended_action": "Correlate these contextual events with endpoint telemetry and session boundaries. Additional sanitized process lineage and file metadata would be needed to determine whether this activity is benign or part of the incident."
+},
+{
+"step": 4,
+"time_range": "2026-05-20T10:27:00 to 2026-05-20T10:34:00",
+"stage": "Execution",
+"summary": "Multiple suspicious process execution events were observed, including suspicious command indicators and encoded payload indicators. The original command lines were sanitized before analysis.",
+"evidence_ids": [
+"E037",
+"E039",
+"E043",
+"E044"
+],
+"confidence": 0.95,
+"recommended_action": "Isolate the affected endpoint context, collect approved forensic artifacts, review process ancestry using sanitized telemetry, and block similar encoded execution patterns where policy allows."
+},
+{
+"step": 5,
+"time_range": "2026-05-20T10:56:00 to 2026-05-20T11:05:00",
+"stage": "Collection",
+"summary": "A sequence of file access events matched sensitive-file indicators. The raw file paths were not forwarded, so the exact files are unknown from the provided evidence.",
+"evidence_ids": [
+"E046",
+"E047",
+"E048",
+"E049",
+"E050",
+"E051",
+"E052",
+"E053",
+"E054",
+"E055"
+],
+"confidence": 0.78,
+"recommended_action": "Identify the sanitized sensitive-file categories through approved internal tooling, review access authorization, and preserve evidence of file access timestamps and related process context."
+},
+{
+"step": 6,
+"time_range": "2026-05-20T11:26:00 to 2026-05-20T11:40:00",
+"stage": "Command and Control",
+"summary": "Repeated external network connection events were observed from the affected endpoint context to destination aliases. The evidence labels these events with a Command and Control tactic hint, but raw network details were suppressed.",
+"evidence_ids": [
+"E056",
+"E057",
+"E058",
+"E059",
+"E060",
+"E061",
+"E062",
+"E063",
+"E064",
+"E065",
+"E066",
+"E067",
+"E068",
+"E069",
+"E070"
+],
+"confidence": 0.72,
+"recommended_action": "Block or monitor the destination aliases through approved controls, correlate with process execution events, and retrieve sanitized connection metadata to confirm whether traffic was malicious."
+},
+{
+"step": 7,
+"time_range": "2026-05-20T12:01:00 to 2026-05-20T12:43:00",
+"stage": "Potentially Unrelated Web Activity",
+"summary": "A separate set of web request events was observed in another user and endpoint context. Query values and raw paths were suppressed, and classifiers marked the records as benign. Based on the provided evidence alone, these events are not clearly connected to the primary compromise sequence.",
+"evidence_ids": [
+"E071",
+"E072",
+"E073",
+"E074",
+"E075",
+"E076",
+"E077",
+"E078",
+"E079",
+"E080",
+"E081",
+"E082",
+"E083",
+"E084",
+"E085",
+"E089",
+"E091",
+"E092",
+"E093"
+],
+"confidence": 0.5,
+"recommended_action": "Keep these events separate unless additional evidence links them to the primary endpoint or account context. Review sanitized web request categories if broader compromise is suspected."
+},
+{
+"step": 8,
+"time_range": "2026-05-20T13:06:00 to 2026-05-20T13:10:00",
+"stage": "Later Low-risk Activity",
+"summary": "Later events were recorded with zero risk scores and benign classifier outputs. The provided evidence does not indicate that these events are part of the compromise sequence.",
+"evidence_ids": [
+"E096",
+"E097",
+"E098",
+"E099",
+"E100"
+],
+"confidence": 0.4,
+"recommended_action": "No direct incident action is supported by these records alone. Continue monitoring and correlate only if additional evidence links them to earlier suspicious activity."
+}
+]
+}

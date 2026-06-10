@@ -2,7 +2,7 @@ Return JSON only.
 
 Do not include Markdown fences, explanation, comments, headings, or prose outside JSON.
 
-The response must be a JSON object with exactly one top-level key:
+The response must be a JSON object with top-level keys like:
 {
   "timeline": [
     {
